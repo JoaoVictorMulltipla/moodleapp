@@ -36,7 +36,7 @@
         "test:coverage": "NODE_ENV=testing gulp && jest --coverage",
         "lint": "NODE_OPTIONS=--max-old-space-size=8192 ng lint",
         "ionic:serve:before": "gulp",
-        "ionic:serve": "cross-env-shell ./scripts/serve.sh",
+        "ionic:serve": "scripts\\serve.bat",
         "ionic:build:before": "gulp",
         "postinstall": "patch-package && cd cordova-plugin-moodleapp && npm install",
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
